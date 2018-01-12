@@ -61,10 +61,10 @@ var colorArray = [
     '#FF0053'
 ]
 
-// window.addEventListener('mousemove', function (event) {
-//     mouse.x = event.x;
-//     mouse.y = event.y;
-// })
+window.addEventListener('mousemove', function (event) {
+    mouse.x = event.x;
+    mouse.y = event.y;
+})
 
 window.addEventListener('touch', function (event) {
     mouse.x = event.x;
